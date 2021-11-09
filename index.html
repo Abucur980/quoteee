@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Quoteee</title>
 </head>
 <body>
-    
+    <div class="quote-container" id="quote-container">
+        <!-- the quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span class="quote">Lorem ipsum dolor sit amet consectetur adip elit. Voluptate maxime minus deserunt accusamus, iusto alias.</span>
+            <!-- quote author -->
+            <div class="quote-author">
+                <span class="author">Lorem, ipsum.</span>
+            </div>
+            <!-- buttons -->
+            <div class="btn-container">
+                <button class="twitter-button" id="twitter" title="Tweet it!">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button id="new-quote">New quoteee</button>
+            </div>
+        </div>
+    </div>
 
 
     <script src="index.js"></script>
