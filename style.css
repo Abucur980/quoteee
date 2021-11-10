@@ -32,11 +32,11 @@ body{
 
 .quote-container{
     width: auto;
-    max-width: 900px;
-    padding: 20px 30px;
-    border-radius: 11px;
+    max-width: 90rem;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
     background-color: rgba(248,248,255, 0.8);
-    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .quote-text{
@@ -52,11 +52,49 @@ body{
 }
 
 .quote-author{
-    margin-top: 16px;
+    margin-top: 1.6rem;
     font-size: 2rem;
     font-weight: 500;
     font-style: italic;
 }
+
+.btn-container{
+    display: flex;
+    margin-top: 1.6rem;
+    justify-content: space-between;
+}
+
+.twitter-button{
+    transition: all .2s;
+}
+
+button{
+    cursor: pointer;
+    font-size: 2.5rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    background-color: #333;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.4rem rgba(121,121,121, 0.65);
+}
+
+button:hover{
+    filter: brightness(110%);
+}
+
+button:active{
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(248,248,255, 0.65);
+}
+
+.twitter-button:hover{
+    color: #38a1f3;
+}
+
+
 
 @media screen and (max-width:1000px){
 
